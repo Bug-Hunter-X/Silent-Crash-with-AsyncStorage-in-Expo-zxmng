@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in Expo and the app crashes without a clear error message in the console.  The issue is often related to improper use of AsyncStorage.setItem and AsyncStorage.getItem within an asynchronous function.  Specifically, if you don't `await` the asynchronous operations properly, or handle potential errors, the app might crash silently.
